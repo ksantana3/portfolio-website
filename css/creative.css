@@ -240,9 +240,11 @@ header.masthead {
 }
 
 #portfolio {
-  height: 45%;
+  height: 100%;
   display: flex;
   align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .project__link {
@@ -255,4 +257,13 @@ header.masthead {
 
 .project__description {
   padding-top: 40px;
+}
+
+.project-img {
+  height: 300px;
+}
+
+.cert-logo {
+  max-width: 300px;
+  max-height: 150px;
 }
