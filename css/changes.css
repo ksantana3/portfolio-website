@@ -101,8 +101,11 @@ header.masthead p {
 }
 
 .btn-primary {
-    background-color: #F05F40;
-    border-color: #F05F40;
+    /* background-color: #F05F40;
+    border-color: #F05F40; */
+    background-color: #ff8246;
+    border-color: #ff8246;
+    
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -129,7 +132,9 @@ header.masthead p {
 }
 
 .bg-primary {
-    background-color: #F05F40 !important; }
+    /* background-color: #F05F40 !important; */
+    background-color: #ff8246 !important; }
+    
   
 .bg-dark {
     background-color: #212529 !important; }
