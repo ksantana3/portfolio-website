@@ -461,7 +461,9 @@
           </div>
           <div class="col-lg-2 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p class="text-light">540-394-5815</p>
+            <p class="text-light" id="phone-reveal">
+              <a href="#" id="show-phone"><span style="color:white"><u>Show number</u></span></a>
+            </p>
           </div>
           <div class="col-lg-3 ml-auto text-center">
           </div>
@@ -990,6 +992,21 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.js"></script>
+
+  <!-- Phone number is assembled only on click so scrapers can't read it from the page source -->
+  <script>
+    document.getElementById('show-phone').addEventListener('click', function (e) {
+      e.preventDefault();
+      var p = ['5185', '493', '045'].map(function (x) { return x.split('').reverse().join(''); }).reverse();
+      var n = p.join('-');
+      var a = document.createElement('a');
+      a.href = 'tel:+1' + p.join('');
+      a.innerHTML = '<span style="color:white"><u>' + n + '</u></span>';
+      var box = document.getElementById('phone-reveal');
+      box.innerHTML = '';
+      box.appendChild(a);
+    });
+  </script>
 
 </body>
 
