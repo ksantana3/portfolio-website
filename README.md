@@ -14,7 +14,7 @@ Full-stack web apps, automation tools, and OCR work.
 
 | Project | Built with | What it does |
 | --- | --- | --- |
-| [**Activity Planner**](https://github.com/ksantana3/Activity_Center) | C#, ASP.NET Core | Users sign up, create activities, and join activities posted by others. Includes login validation, Bcrypt password hashing, sessions, and one-to-many and many-to-many data relationships. |
+| [**Activity Planner**](https://github.com/ksantana3/Activity_Center) | C#, ASP.NET Core, Entity Framework Core, SQLite | Users sign up, create activities, and join activities posted by others. Includes login validation, hashed passwords, sessions, and one-to-many and many-to-many data relationships. |
 | [**Pet Shelter**](https://github.com/ksantana3/pet-shelter) | React, Node.js, Express, MongoDB, AWS EC2 | MERN-stack app for managing shelter pet profiles, with photo uploads and full create/read/update/delete over a REST API. |
 | [**Travel Buddy**](https://github.com/ksantana3/django_travel_app) | Python, Django, SQLite | Users post travel plans and join trips planned by others. Includes login validation, Bcrypt password hashing, sessions, and related data models. |
 | [**Django Project Scaffolder**](https://github.com/ksantana3/django_file_structure) | Python, Batch | Sets up a new Django app's folder structure automatically. It started as a batch script and grew into a Python tool. |
